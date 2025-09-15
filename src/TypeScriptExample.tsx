@@ -1,4 +1,5 @@
-const codeString = `// 変数宣言と型注釈
+export default function TypeScriptExample() {
+  const codeString = `// 変数宣言と型注釈
 let age: number = 25;
 const name: string = "Alice";
 
@@ -6,10 +7,6 @@ const name: string = "Alice";
 function greet(person: string): string {
   return "Hello, " + person;
 }`;
-
-export default function TypeScriptExample() {
-  const codeString = `// TypeScript の基本
-let message: string = "Hello, TypeScript!";`;
 
   return (
     <div id="basic" style={{ marginBottom: "40px" }}>
