@@ -9,7 +9,7 @@ import InterfaceExample from "./components/InterfaceExample";
 export default function App() {
   return (
     <div className="container">
-      <h1>TypeScript 入門サイト</h1>
+      <h1>TypeScript 成果物用</h1>
       <TableOfContents />
       <TypeScriptExample />
       <VariablesExample />
